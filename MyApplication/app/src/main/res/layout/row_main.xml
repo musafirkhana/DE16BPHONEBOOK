@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@drawable/button_rectaangle">
+
+    <RelativeLayout
+        android:id="@+id/mid_relative_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+       >
+
+        <com.de16b.vaiuu.myapplication.RoundedImageView
+            android:id="@+id/profile_image"
+            android:layout_width="100dp"
+            android:layout_marginLeft="2dp"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="2dp"
+            android:layout_height="100dp"
+            android:background="@drawable/test"
+            android:scaleType="fitXY" />
+
+
+    </RelativeLayout>
+
+    <TextView android:id="@+id/textview_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Musafir Ali"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/mid_relative_1"
+        android:textSize="12sp"
+        />
+
+    <TextView android:id="@+id/textview_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+8801911764894"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textview_1"
+        android:textSize="12sp"
+        />
+</RelativeLayout>
