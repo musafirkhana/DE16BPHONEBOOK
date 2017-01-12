@@ -65,5 +65,27 @@
     "viber":"+8801911764894",
     "twitter":"ali_mbstu@yahoo.com"
 
-  }
+  }, {
+       "name":"Musafir Ali",
+       "mobile":"+8801911764894",
+       "photo":"ali.png",
+       "email":"ali.mbstu.ict@gmail.com",
+       "facebook":"ali_mbstu@yahoo.com",
+       "Linkdin":"ali_mbstu@yahoo.com",
+       "skype":"ali.mbstu.ict",
+       "viber":"+8801911764894",
+       "twitter":"ali_mbstu@yahoo.com"
+
+     }, {
+          "name":"Mehedul Hasan",
+          "mobile":"+8801552689377",
+          "photo":"ali.png",
+          "email":"ali.mbstu.ict@gmail.com",
+          "facebook":"ali_mbstu@yahoo.com",
+          "Linkdin":"ali_mbstu@yahoo.com",
+          "skype":"ali.mbstu.ict",
+          "viber":"+8801911764894",
+          "twitter":"ali_mbstu@yahoo.com"
+
+        }
 ]

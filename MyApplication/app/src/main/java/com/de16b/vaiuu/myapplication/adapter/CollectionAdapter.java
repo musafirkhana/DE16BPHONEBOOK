@@ -17,6 +17,8 @@ import android.widget.TextView;
 import com.de16b.vaiuu.myapplication.R;
 import com.de16b.vaiuu.myapplication.model.CollectionListModel;
 
+import de.hdodenhof.circleimageview.CircleImageView;
+
 
 public class CollectionAdapter extends ArrayAdapter<CollectionListModel> implements
 		Filterable {
@@ -57,6 +59,7 @@ public class CollectionAdapter extends ArrayAdapter<CollectionListModel> impleme
 					.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 			v = inflater.inflate(R.layout.row_main, null);
 			// Now we can fill the layout with the right values
+			CircleImageView profile_image = (CircleImageView) v.findViewById(R.id.profile_image);;
 			TextView tv = (TextView) v.findViewById(R.id.textview_1);
 			TextView distView = (TextView) v.findViewById(R.id.textview_2);
 
